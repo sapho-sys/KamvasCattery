@@ -1,0 +1,61 @@
+.kittens{
+    display: flex;
+}
+.kittens img{
+    float:left;
+    width:170px;
+    height:170px;
+}
+.kittens2{
+    display: flex;
+}
+.kittens2 img{
+    float:right;
+    width:170px;
+    height:170px;
+}
+.cat1 img {
+    padding:0 10px;
+
+}
+.cat2 img{
+    padding:0 10px;
+
+}
+.cat3 img{
+    padding:0 8px;
+
+}
+.kat1 img{
+    padding:0 8px;
+
+}
+.kat2 img{
+    padding:0 8px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align:center;
+}
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
+@media screen and (min-width:320px)  and (max-width:760px){
+    .kittens{
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+    .kittens2{
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+}
