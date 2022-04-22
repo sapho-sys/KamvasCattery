@@ -1,4 +1,4 @@
-describe("this test",function(){
+describe("Tesing the Bookings function",function(){
     it("should return R135.00 for MONDAY check-ins",function(){
         var booking={
             check_in_day: 'Monday',
